@@ -1,0 +1,428 @@
+*{
+    margin: 0;padding: 0;
+}
+#box1{
+    height: 60px;width: 1263px;font-size: 20px;background-color: violet;position:fixed;
+}
+
+#para{
+    margin-left: 220px;margin-top: 20px;position: fixed;
+}
+#box2{
+    height: 75px;width: 180px;border: 1px solid gainsboro;margin-top: 5px;background-color: white;position: fixed;
+}
+#para1{
+    height: 20px;width: 330px;margin-top: 22px;margin-left: 6px;font-size: 16px;position: fixed;
+
+}
+
+#box3{
+    height: 75px;width: 600px;border: 1px solid gainsboro;margin-left: 180px;margin-top:-13px;position:  fixed;background-color: white;
+}
+#ul{
+    display: flex;  
+    justify-content: space-around;
+    list-style: none;
+    color: rgb(95, 93, 93);
+    
+}
+#list{
+    margin-left: 10px;width: 20px;height: 12px;cursor:pointer;
+}
+#men{
+ background-color: white;text-decoration: none;list-style: none;width: 200px;
+}
+#men1{
+    background-color: white;text-decoration: none;list-style: none;margin-left: 150px;margin-top: -412px; width:280px;height: 412px;
+   }
+#men2{
+    background-color: white;text-decoration: none;list-style: none;margin-left: 350px;margin-top: -412px; width: 200px;height: 412px; 
+   }
+#ul li:nth-child(1):hover #men{
+    display: block;
+}
+#men{
+    display: none;
+}
+#ul li:nth-child(1):hover #men1{
+    display: block;
+}
+#men1{
+    display: none;
+}
+#ul li:nth-child(1):hover #men2{
+    display: block;
+}
+#men2{
+    display: none;
+}
+h2{
+    color: #007b8f;
+}
+#clr{
+    color: #007b8f;
+}
+#clr:hover{
+    text-decoration: underline;
+}
+h2:hover{
+    text-decoration: underline;
+}
+h3:hover{
+    color: #007b8f;text-decoration: underline;
+}
+#list1{
+    width: 20px;height: 12px;cursor:pointer;
+}
+#women{
+    background-color: white;text-decoration: none;list-style: none;width: 230px;height: 400px;
+   }
+#women1{
+    background-color: white;text-decoration: none;list-style: none;margin-left: 170px;margin-top: -400px; width:280px;height: 400px;
+   }
+#women2{
+    background-color: white;text-decoration: none;list-style: none;margin-left: 370px;margin-top: -400px; width: 200px;height: 400px; 
+   }
+#ul li:nth-child(2):hover #women{
+    display: block;
+}
+#women{
+    display: none;
+}
+#ul li:nth-child(2):hover #women1{
+    display: block;
+}
+#women1{
+    display: none;
+}
+#ul li:nth-child(2):hover #women2{
+    display: block;
+}
+#women2{
+    display: none;
+}
+
+#list2{
+    width: 20px;height: 12px;margin-left: 25px;cursor:pointer;
+}
+#kids{
+    background-color: white;text-decoration: none;list-style: none;width: 230px;height: 400px;
+   }
+#kids1{
+    background-color: white;text-decoration: none;list-style: none;margin-left: 170px;margin-top: -400px; width:280px;height: 400px;
+   }
+#kids2{
+    background-color: white;text-decoration: none;list-style: none;margin-left: 380px;margin-top: -400px; width: 170px;height: 400px; 
+   }
+#ul li:nth-child(3):hover #kids{
+    display: block;
+}
+#kids{
+    display: none;
+}
+#ul li:nth-child(3):hover #kids1{
+    display: block;
+}
+#kids1{
+    display: none;
+}
+#ul li:nth-child(3):hover #kids2{
+    display: block;
+}
+#kids2{
+    display: none;
+}
+
+#list3{
+    width: 20px;height: 12px;margin-left: 25px;cursor:pointer;
+}
+#blokz{
+    background-color: white;text-decoration: none;list-style: none;width: 230px;height: 150px;
+   }
+#ul li:nth-child(4):hover #blokz{
+    display: block;
+}
+#blokz{
+    display: none;
+}
+
+
+#p{
+    color: #007b8f;margin-left: 420px;margin-top: -36px;
+}
+#id1{
+    height: 75px;width: 80px;border: 1px solid gainsboro;margin-left: 781px;position: fixed;background-color: white;margin-top: 5px;
+}
+#div1{
+    color:rgb(95, 93, 93);margin-top: 15px;font-size: 20px;
+}
+#id2{
+    height: 75px;width: 80px;border: 1px solid gainsboro;margin-left: 862px;margin-top: 5px;position: fixed;background-color: white;
+}
+#div2{
+    color:rgb(95, 93, 93);margin-top: 11px;font-size: 20px;
+}
+#id3{
+    height: 75px;width: 80px;border: 1px solid gainsboro;margin-left: 943px;margin-top: 5px;position: fixed;background-color: white;
+}
+#div3{
+    color:rgb(95, 93, 93);margin-top: 15px;font-size: 20px;
+}
+#id4{
+    height: 75px;width: 80px;border: 1px solid gainsboro;margin-left: 1024px;margin-top: 5px;position: fixed;background-color: white;
+}
+#div4{
+    color:rgb(95, 93, 93);margin-top: 15px;font-size: 20px;
+}
+#id5{
+    height: 75px;width: 80px;border: 1px solid gainsboro;margin-left: 1104px;margin-top: 5px;position: fixed;background-color: white;
+}
+#div5{
+    color:rgb(95, 93, 93);margin-top: 15px;font-size: 20px;
+}
+#id6{
+    height: 75px;width: 80px;border: 1px solid gainsboro;margin-left: 1185px;margin-top: 5px;position: fixed;background-color: white;
+}
+#div6{
+    color:rgb(95, 93, 93);margin-top: 15px;font-size: 20px;
+}
+#box4{
+    height:430px;width:1259;border: 1px solid gainsboro;
+}
+#g1{
+    width: 170px;height: 95px;margin-left: 160px;
+}
+#g1:hover{
+    background: white;
+    box-shadow: 3px 3px 3px rgb(207, 207, 207);
+    border-radius: 8px;
+}
+#g2{
+    width: 170px;height: 95px;margin-left: 330px;margin-top: -95px;
+}
+#g2:hover{
+    background: white;
+    box-shadow: 3px 3px 3px rgb(207, 207, 207);
+    border-radius: 8px;
+}
+#g3{
+    width: 170px;height: 95px;margin-left: 500px;margin-top: -95px;
+}
+#g3:hover{
+    background: white;
+    box-shadow: 3px 3px 3px rgb(207, 207, 207);
+    border-radius: 8px;
+}
+#g4{
+    width: 170px;height: 95px;margin-left: 670px;margin-top: -95px;
+}
+#g4:hover{
+    background: white;
+    box-shadow: 3px 3px 3px rgb(207, 207, 207);
+    border-radius: 8px;
+}
+#g5{
+    width: 170px;height: 95px;margin-left: 840px;margin-top: -95px;
+}
+#g5:hover{
+    background: white;
+    box-shadow: 3px 3px 3px rgb(207, 207, 207);
+    border-radius: 8px;
+}
+#g6{
+    width: 150px;height: 95px;margin-left: 1010px;margin-top: -95px;
+}
+#g6:hover{
+    background: white;
+    box-shadow: 3px 3px 3px rgb(207, 207, 207);
+    border-radius: 8px;
+}
+p{
+    font-size: 20px;
+}
+#box5 img{
+
+    width: 100%;
+    height: 600px;
+
+}
+/* #box5{
+    width: 1260p3;
+    height: 500px;
+    border: 1px solid black;
+    /* display: flex;
+    position: relative;
+    z-index: -30;
+    overflow: hidden;
+    animation-name: pic;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}*/
+
+#slider{
+    overflow: hidden;
+    height: 500px;
+   
+}
+#slider figure div{
+    float: left;
+    width: 20%;
+}
+#slider figure img{
+    width: 100%;
+    float: left;
+}
+#slider figure{
+    position: relative;
+   z-index: -10;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+    animation: 20s slide infinite;
+}
+
+@keyframes slide {
+    0%{
+      left: 0%;
+    }
+    10%{
+        left: 0%; 
+    }
+    12%{
+        left: -100%;
+    }
+    22%{
+        left: -100%;
+    }
+    24%{
+        left: -200%;
+    }
+    34%{
+        left: -200%;
+    }
+    36%{
+        left: -300%;
+    }
+    46%{
+        left: -300%;
+    }
+    48%{
+        left: -400%;
+    }
+    58%{
+        left: -400%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    72%{
+        left: -200%;
+    }
+    82%{
+        left: -200%;
+    }
+    84%{
+        left: -100%;
+    }
+    94%{
+        left: -100%;
+    }
+    96%{
+        left: 0%;
+    }
+
+}
+
+#box6{
+    height: 100px;
+    width: 1260px;
+    background-color: #f0f0f0;
+    position: relative;
+    z-index: -40;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box8{
+    display: flex;
+    
+}
+#glass1{
+    height: 450px;
+    width: 630px;
+    
+}
+#glass2{
+    height: 450px;
+    width: 630px;
+    
+}
+#box10{
+    display: flex;
+    justify-content: space-around;
+}
+
+#pic{
+    height: 500px;width:400px;
+}
+#pic1{
+    height: 500px;width:400px;
+}
+#pic2{
+    height: 500px;width:400px;
+}
+#pic3{
+    height: 500px;width:400px;
+}
+#pic4{
+    height: 500px;width:400px;
+}
+#pic5{
+    height: 500px;width:400px;
+}
+#box11{
+    display: flex;
+    justify-content: space-around;
+}
+#grid{
+    margin-left: 10px;
+    margin-top: -70px;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,150px);
+}
+#grid img{
+    width: 100%;
+    height: 100%;
+}
+#gdiv{
+    margin-left: 10px;
+}
+#pic6{
+    height: 500px;width:400px;margin-left: 430px;margin-top: -380px;
+}
+#pic7{
+    height: 500px;width:400px;margin-left: 850px;margin-top: -500px;
+}
+#heading{
+    text-align: center;font-size: 30px;margin-top: -70px;
+}
+#heading1{
+    text-align: center;font-size: 30px;margin-top: -10px;
+}
+#box13{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+    
+
+
+
+
+
+
